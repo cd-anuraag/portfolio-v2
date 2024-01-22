@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap");
+
+body {
+    margin: 0;
+    color: white;
+    font-family: "Silkscreen", cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000;
+    background-image: radial-gradient(transparent 40%, #000 90%), linear-gradient(hsla(0, 0%, 100%, .08) 1px, transparent 0), linear-gradient(90deg, hsla(0, 0%, 100%, .08) 1px, transparent 0), linear-gradient(hsla(0, 0%, 100%, .05) 1px, transparent 0), linear-gradient(90deg, hsla(0, 0%, 100%, .05) 1px, transparent 0);
+    background-position: 0 0, -155px -120px, -155px -120px, -155px -120px, -155px -120px;
+    background-size: 100% 100%, 350px 350px, 350px 350px, 70px 70px, 70px 70px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.cover-screen {
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg-infra:before {
+    background: transparent url("https://nodeops.xyz/static/media/noise.93fe26ae97a4df3d4e67.gif") repeat 0 0;
+    content: "";
+    opacity: .05;
+    position: absolute;
+    height:160%;
+    width: 100%;
+}
+
+.bg-landing:before {
+    background: transparent url("https://nodeops.xyz/static/media/noise.93fe26ae97a4df3d4e67.gif") repeat 0 0;
+    content: "";
+    opacity: .05;
+    position: absolute;
+    height:100%;
+    width: 100%;
+}
+
+.navbar {
+    background: black;
+    opacity: 1;
+    position: absolute;
+    bottom: 5vh;
+    width: 40vw;
+    left: 30vw;
+    right: 30vw;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    height: 40px;
+    padding: 10px 10px 10px;
+}
+
+.navbar-item-logo {
+    width: auto;
+    height: 60%;
+    padding: 6px 35px 35px;
+    cursor: pointer;
+}
+
+.navbar-item {
+    align-items: center;
+    border: 1px solid hsla(0, 0%, 100%, .12);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex: 1 1;
+    height: 100%;
+    justify-content: center;
+    transition: all .5s;
+    margin-top: -3px;
+}
+
+.navbar-item:hover {
+    border: 1px solid hsla(0, 0%, 100%, .25);
+}
+
+.about {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 35%;
+}
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 60%;
+    height: 40vh;
+    transform: translate(-50%, -50%);
+}
+
+.infra-image {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 40%;
+    height: 50vh;
+    transform: translate(-50%, -50%);
+}
+
+.infra-desc {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 35%;
+}
+
+.servers {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    width: 70%;
+}
+
+.server-block {
+    margin-bottom: 70px;
+}
+
+.server-name {
+    display: inline-block;
+    font-size: 2rem;
+    border-bottom: white 1px solid;
+    margin-bottom: 10px;
+
+}
+
+.server-desc {
+    width: 90%;
+}
+
+.server-image {
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 90%;
+}
+
+.back-icon {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: all .5s;
+    border-bottom: white 1px solid;
+}
+
+.back-icon:hover {
+    border-bottom: white 2px solid;
+}
+
+.not-found-text{
+    position: absolute;
+    top: 40%;
+    left:20%;
+    width: 50%;
+    font-size: 5vh;
+}
