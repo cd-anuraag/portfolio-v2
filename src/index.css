@@ -174,3 +174,35 @@ a{
 .not-found-home-text:hover{
     border-bottom: 2px solid white;
 }
+
+.contact-heading {
+    position: absolute;
+    left: 20%;
+    top:35%;
+    width: 60vw;
+    text-align: center;
+}
+
+.contact-options{
+    position: absolute;
+    left: 20%;
+    top:50%;
+    width:50vw;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+}
+
+.contact-option{
+    padding: 6px 35px 35px;
+    cursor: pointer;
+}
+
+.contact-option:hover{
+    opacity: 0.5;
+}
+
+.contact-option-image{
+    height:5vh;
+    width:auto;
+}
