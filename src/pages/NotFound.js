@@ -5,7 +5,8 @@ class NotFound extends Component {
         return (
             <div className="bg-landing cover-screen">
                 <a href="/"><img src="./back-icon.png" alt="back-icon" className="back-icon"/></a>
-               <div className="not-found-text"> The page you are looking for does not exist!
+               <div className="not-found-text">Oops! You're beyond the borders. Please return to
+                   <a href="/"><span className="not-found-home-text"> home</span></a>.
                </div>
             </div>
         );

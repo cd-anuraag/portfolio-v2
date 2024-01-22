@@ -4,7 +4,7 @@ class Navbar extends Component {
     render() {
         return (
             <div className="navbar">
-                <div className="navbar-item">Contact</div>
+                <div className="navbar-item"><a href="/contact">Contact</a></div>
                 <div className="navbar-item"><a href="/infra">Infra</a></div>
                 <div className="navbar-item"><a href="/work">Work</a></div>
                 <div className="navbar-item"><a href="/about">About</a></div>
