@@ -11,28 +11,23 @@ class Contact extends Component {
                 </div>
                 <div className="contact-options">
                     <div className="contact-option">
-                        <a href="https://github.com/mohdnuman">
+                        <a href="https://github.com/cd-anuraag">
                             <img src="./github.png" alt="github-logo" className="contact-option-image"/>
                         </a>
                     </div>
                     <div className="contact-option">
-                        <a href="mailto:mohammadnuman123@gmail.com">
+                        <a href="mailto:anuraag541@gmail.com">
                             <img src="./email.png" alt="email-logo" className="contact-option-image"/>
                         </a>
                     </div>
                     <div className="contact-option">
-                        <a href="https://twitter.com/mohdnuman_">
+                        <a href="https://twitter.com/anuraag_bansal">
                             <img src="./x.png" alt="x-logo" className="contact-option-image"/>
                         </a>
                     </div>
                     <div className="contact-option">
-                        <a href="https://www.linkedin.com/in/mohd-numan/">
+                        <a href="https://www.linkedin.com/in/anuraag-bansal-54a091194/">
                             <img src="./linkedin.png" alt="linkedin-logo" className="contact-option-image"/>
-                        </a>
-                    </div>
-                    <div className="contact-option">
-                        <a href="https://medium.com/@ciphernova">
-                            <img src="./medium.png" alt="medium-logo" className="contact-option-image"/>
                         </a>
                     </div>
                 </div>
